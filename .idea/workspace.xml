@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f720fc06-ff50-4c8b-afb3-28b55bbed449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/automation/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/outputs/form-filled.png" beforeDir="false" afterPath="$PROJECT_DIR$/automation/outputs/form-filled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tests/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/automation/tests/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nightwatch.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604535998657</updated>
       <workItem from="1604535999734" duration="8051000" />
-      <workItem from="1605029038859" duration="6767000" />
+      <workItem from="1605029038859" duration="6937000" />
     </task>
     <servers />
   </component>
