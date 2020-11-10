@@ -1,0 +1,45 @@
+<html>
+<h1>Littlefoot Library</h1>
+<form accept-charset="UTF-8" action="submit_action" autocomplete="off" method="GET"
+      target="_blank">
+    <fieldset>
+        <legend>Book Return:</legend>
+        <label for="name">Your Name:</label><br />
+        <input name="name" type="text" value="Frank" /><br />
+        <label for="town_resident">Town Resident?</label><br />
+        <input checked="checked" name="town_resident" type="radio" value="yes" /> Yes <br />
+        <input name="sex" type="radio" value="no" /> No <br />
+        <label for="title">Title:</label><br />
+        <input name="title" type="text" value="book title" /><br />
+        <label for="author">Author:</label><br />
+        <input name="author" type="text" value="book author" /><br />
+        <label for="pages">Number of Pages:</label><br />
+        <input name="pages" type="text" value="pages in book" /><br />
+        <label for="dewey_decimal">Dewey Decimal Number:</label><br />
+        <input name="dewey_decimal" type="text" value="enter number" /><br />
+        <label for="book_read_amount">How Much of the book was read?</label><br />
+        <select id="status_selector">
+            <option class="bookitem" selected="selected" value="read">Read</option>
+
+            <option class="bookitem" value="partially">Partially</option>
+            <option class="bookitem" value="unread">Not Read</option>
+        </select><br />
+        <label for="time_to_read">Time taken to read book:</label><br />
+        <select id="time_selector">
+            <option class="readtime" selected="selected" value="less_week">Less then 1 week</option>
+            <option class="readtime" value="2_3weeks">2-3 weeks</option>
+            <option class="readtime" value="morethen_4weeks">4 weeks or more</option>
+        </select><br />
+        <label for="rating">Your rating:</label><br />
+        <select id="rating_selector">
+            <option class="rating" selected="selected" value="5">★★★★★</option>
+            <option class="rating" value="4">★★★★</option>
+            <option class="rating" value="3">★★★</option>
+            <option class="rating" value="2">★★</option>
+            <option class="rating" value="1">★</option>
+        </select><br />
+        <br />
+        <button type="submit" value="Submit">Submit</button>
+    </fieldset>
+</form>
+</html>
