@@ -64,7 +64,7 @@ module.exports = {
             .click(ratingValueSelector)
             .pause(3000)
             .click('button[type=submit]')
-            .saveScreenshot('e2e/outputs/form-filled.png');
+            .saveScreenshot('automation/outputs/form-filled.png');
     },
 
     afterEach(browser) {
