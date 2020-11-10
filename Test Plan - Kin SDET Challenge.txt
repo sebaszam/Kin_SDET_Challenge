@@ -1,0 +1,247 @@
+﻿Littlefoot Library 
+Test Plan
+Overview:
+
+
+In this document you will find all the quality assurance points for review, which will contain the status and a brief description of what’s being tested within the specific release, as well as the devices, browsers and versions where it will be tested. 
+
+
+
+
+Goals: 
+
+
+* Provide documentation on the new changes introduced by each release
+* Provide assurance that all the previous platform features have not been affected
+* Provide results of the functional, visual and regression testing performed for each release
+* Provide a visual representation of the testing coverage
+* Provide a visual representation of which devices, browsers and versions are being tested
+* Provide a list of workflows and their respective priorities
+* Provide a clear defect tracking system of each release
+* Provide a step by step documentation on each of the automated scripts
+* Provide the instructions to test each feature
+* Provide the scopes from our tracking systems
+* Provide a documented testing process
+* Provide a regression test plan overview
+* Provide a clear understanding of which environments will be tested
+* Provide names of the people who will be testing the product
+* Provide a schedule where features will be tested
+________________
+Scope: 
+
+
+Bugs solved during the active sprint:
+Link to Jira
+
+
+Bugs open and unresolved that were created during the active sprint:
+Link to Jira
+
+
+All bugs reported during the active sprint:
+Link to Jira
+
+
+
+
+Testing Process
+* Every ticket is tested individually 1-3 times for functional and visual testing. Bugs are closed on success, stories are closed on success.
+* Once all tickets in sprints have passed testing, the release is packaged and put through a “dry-run” on our test environment. This entails:
+   * Resetting preprod per production, code and database so they are exactly the same
+   * Applying our release on top of test
+   * Regressing test environment
+* Our regression covers the following devices and browsers:
+
+
+OS X (latest)
+* Chrome (latest)
+* Safari (latest)
+* FireFox (latest)
+
+
+Windows 10:
+* Edge (latest)
+
+
+Android (Samsung Galaxy S9 version 9):
+* Chrome (latest)
+ 
+iOS (iPhone X version 13.3.1):
+* Safari (latest)
+* Chrome (latest)
+
+
+
+
+Schedule
+* Project “Littlefoot Library” will be delivered on a scrum methodology following bi-weekly sprints (10 days) starting on Monday, 09 November, 2020.
+* Daily standup meetings will be held by zoom due to global pandemic in order to avoid health risks
+* Developer will have 8 (eight) days to deliver the selected work assigned during sprint planning meetings
+* Sprint planning meeting will be held on mondays at the beginning of each sprint
+* Sprint retrospective will be held on mondays at the beginning of each sprint
+* Project “Littlefoot Library” has a timeline to be delivered before January 1st (first)
+* Management team and the client have agreed on the terms above
+Team: 
+
+
+For this specific project we will provide the following team in order to deliver a consistent and robust product, please be aware they are 100% allocated to this project:
+* Scrum master: {Person 1}
+* Senior developer: {Person 2}
+* Mid developer: {Person 3}
+* Junior developer: {Person 4}
+* Quality Assurance: {Person 5}
+
+
+
+
+Steps to run the automated tests: 
+
+
+In order to run the automated tests that have been implemented with Nightwatch JS, please follow below:
+* Clone the repository Kin_SDET_Challenge
+* Open the repository with a working IDE
+* Be aware that you will need to install some dev dependencies (nightwatch and chromedriver)
+* Run npm install nightwatch
+* Run npm install chromedriver
+* Validate you have changed the URL to the proper one that you want to test here .url('http://localhost:8080/') //Enter the URL to be tested
+* Open the terminal
+* Run npm test
+* Validate the automated tests passed without failure
+
+
+Regression Test Plan Overview
+
+
+DESCRIPTION
+	STATUS
+	COMMENTS
+	P1 - General / Website loads
+
+- Go to www.enterurl.com
+- Confirm website loads properly
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - General / Form it’s being displayed
+
+
+- Go to www.enterurl.com
+- Confirm form it’s being displayed
+- Confirm form it’s functional
+- Confirm user can navigate through every option
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - General / Layout it’s not broken
+
+
+- Go to www.enterurl.com
+- Confirm visual layout it’s not breaking on desktop, tablet and mobile
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - General / Form it’s responsive
+
+
+- Go to www.enterurl.com
+- Resize browser window to different viewpoints
+- Confirm layout does not break
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - General / Submit form
+
+
+- Go to www.enterurl.com
+- Fill out the form
+- Confirm the user can click on the Submit CTA
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - Automation / Implementation
+
+
+- Automated scripts will be implemented with Nightwatch JS
+- Validate you have a working IDE to run the tests
+- Clone working repository from GitHub to your working computer
+- Run npm install from terminal
+- Make sure to have node js installed in your working computer
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	P1 - Automation / Run automated tests
+
+
+- Open the IDE with the working repository “Kin_SDET_Challenge”
+- Make sure to change the URL to the one to be tested
+- Open terminal
+- Run the following command “npm test”
+- Validate tests passed properly without failure
+	* Pass on OS X
+* Pass on Windows 10
+* Pass on Android
+* Pass on iOS
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deliverables:
+
+
+
+
+Clarifications: 
+* All the new deliverables have been reported with its own JIRA ticket in order to provide proper tracking for the next sprint.
+
+
+
+
+UI form submission page
+	Functional form submission page with different selectors and fields
+	New UX/UI for the users displaying the newest design
+	New fields to upload files to automatically fill the form for the users
+	Virtual experience for the users to read a summary of each book before purchasing or renting
+	
+
+
+
+ / Littlefoot Library Test Plan
+	External
