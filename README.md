@@ -1,1 +1,1 @@
-# nightwatch-testing
+# Kin SDET Challenge
