@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f720fc06-ff50-4c8b-afb3-28b55bbed449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nightwatch.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_output/CHROME_86.0.4240.183_Mac_OS_X_login.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604535998657</updated>
       <workItem from="1604535999734" duration="8051000" />
-      <workItem from="1605029038859" duration="6937000" />
+      <workItem from="1605029038859" duration="7283000" />
     </task>
     <servers />
   </component>
